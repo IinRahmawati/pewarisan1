@@ -1,0 +1,19 @@
+class Bapak(object):
+    def __init__(self, nama, tinggi, berat):
+        self.nama = nama
+        self.tinggi = tinggi
+        self.berat = berat
+
+    def berjalan(self):
+        print("Berjalan ke depan")
+
+    def berlari(self):
+        print("Berlari dengan cepat")
+
+b = Bapak("dinra", 180, 65)
+print()
+print("Nama:", b.nama)
+print("Tinggi:", b.tinggi, "cm")
+print("Berat:", b.berat, "kg")
+b.berjalan()
+b.berlari()
